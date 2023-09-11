@@ -1,0 +1,10 @@
+function aaa.main 0
+push argument 0
+pop pointer 0
+push this 0
+push constant 10
+push constant 100
+call Ball.setDestination 3
+pop temp 0
+push constant 0
+return

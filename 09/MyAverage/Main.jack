@@ -1,0 +1,19 @@
+class Main{
+    function void main(){
+        var int nums,i,sum;
+        var Array arr;
+        let nums=Keyboard.readInt("How many numbers ?");
+        let i=0; let sum=0;
+        let arr=Array.new(nums);
+        while(i<nums){
+            let arr[i]=Keyboard.readInt("Enter a number : ");
+            
+            let sum=sum+arr[i];
+            let i=i+1;
+        }
+        do Output.printString("result :");
+        do Output.printInt(sum/nums);
+        do Output.println();
+        return ;
+    }
+}
